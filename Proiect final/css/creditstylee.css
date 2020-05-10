@@ -1,0 +1,22 @@
+#bodycontent{ 
+    display: block;
+    width: 84%;
+    margin-left: 129px;
+    background-color: #ffff;
+    padding: 27px;
+    margin-top: 145px;
+    border: 1px solid rgb(243, 239, 239);
+    box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    position: relative;
+    height:80%;
+   }
+   @media screen and (max-width: 780px){
+    #bodycontent{
+        display: grid;
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+  
+      }
+   }
